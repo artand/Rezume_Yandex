@@ -20,7 +20,7 @@ $(document).ready(function(){
 	$(this).toggleClass("active");
 	});	
 	$(".b-main_close").click(function(){
-	$(".accordion p").slideUp();
+	$(".accordion p").slideUp(); return false; 
 	})
 });
 </script>
@@ -49,7 +49,7 @@ $(document).ready(function(){
 	<!--Шапка правый  блок-->
 	
 		<div class="b-header_title">
-			<a href="#" class="e-content">Анкета</a>
+			<a href="https://github.com/artand" class="e-content" target="_blank">Анкета</a>
 		</div>
 	
 	</div><!--END Шапка страницы-->		
@@ -93,11 +93,12 @@ $(document).ready(function(){
 		<div class="b-main_title" id="mark2">Опыт разработки</div>
 		<div class="accordion">
 			<h3 class="accordion_title">Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.</h3>
-			<p class="accordion_content">Пробовал верстать несколько проектов. Результаты прилагаю:<br> 
-			<b>WPBlog</b> - верстка со страницы в интернете,<br>
-			<b>EasyLanguage</b> - верстка с PSD шаблона,<br>
-			<b>WaitingRoom</b> - верстка с PSD шаблона,<br>
-			<b>InstMed</b> - верстка с PSD шаблона.</p>
+			<p class="accordion_content">Пробовал верстать несколько проектов. Результаты прилагаю:<br><br>
+			<a href="https://github.com/artand/WPBlog" target="_blank">WPBlog</a> - верстка со страницы в интернете,<br>
+			<a href="https://github.com/artand/EasyLanguages" target="_blank">EasyLanguage</a> - верстка с PSD шаблона,<br>
+			<a href="https://github.com/artand/WeitingRoom" target="_blank">WaitingRoom</a> - верстка с PSD шаблона,<br>
+			<a href="https://github.com/artand/InstMed" target="_blank">InstMed</a> - верстка с PSD шаблона.<br>		
+			</p>
 			<h3 class="accordion_title">Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?</h3>
 			<p class="accordion_content">HTML, CSS, Firebag, jQuery (немного)</p>
 			<h3 class="accordion_title">С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</h3>
@@ -110,12 +111,12 @@ $(document).ready(function(){
 			<p class="accordion_content">Нет</p>
 			<h3 class="accordion_title">Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?</h3>
 			<p class="accordion_content">
-				<a href="http://htmlbook.ru">htmlbook.ru</a><br>
-				<a href="http://anton.shevchuk.name">anton.shevchuk.name</a><br>
-				<a href="http://cssing.org.ua">cssing.org.ua</a><br>
-				<a href="http://www.colorzilla.com">colorzilla.com</a><br>
-				<a href="http://web-standards.ru">web-standards.ru</a><br>
-				<a href="http://habrahabr.ru">habrahabr.ru</a><br>				
+				<a href="http://htmlbook.ru" target="_blank">htmlbook.ru</a><br>
+				<a href="http://anton.shevchuk.name" target="_blank">anton.shevchuk.name</a><br>
+				<a href="http://cssing.org.ua" target="_blank">cssing.org.ua</a><br>
+				<a href="http://www.colorzilla.com" target="_blank">colorzilla.com</a><br>
+				<a href="http://web-standards.ru" target="_blank">web-standards.ru</a><br>
+				<a href="http://habrahabr.ru" target="_blank">habrahabr.ru</a><br>				
 			</p>
 			<h3 class="accordion_title">Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде?</h3>
 			<p class="accordion_content">НЦУИКС радио-инженер</p>		
