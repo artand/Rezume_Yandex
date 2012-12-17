@@ -199,10 +199,10 @@ body {
 				padding: 7px 15px;
 				}
 			.accordion_title.active{
-				background: #ff4f00;
+				background: #a7d761;
 				}
 			.accordion_title:hover {
-				background-color: #8CC746;
+				background-color: #F96537;
 				}
 			.accordion_content {
 				background: none repeat scroll 0 0 #FFFDD0;
@@ -216,6 +216,7 @@ body {
 					text-decoration: none;
 					color:#C04000;
 					}
+				
 /*Аккордеон окончание*/	
 	
 			.b-main_close{
