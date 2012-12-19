@@ -16,11 +16,11 @@
 
 $(document).ready(function(){
 	$(".accordion h3").click(function(){
-	$(this).next("p").slideToggle('slow')		
+	$(this).next().slideToggle('slow')		
 	$(this).toggleClass("active");
 	});	
 	$(".b-main_close").click(function(){
-	$(".accordion p").slideUp(); return false; 
+	$(".accordion p").slideUp(); $(".accordion div").slideUp(); return false; 
 	})
 });
 </script>
@@ -93,12 +93,16 @@ $(document).ready(function(){
 		<div class="b-main_title" id="mark2">Опыт разработки</div>
 		<div class="accordion">
 			<h3 class="accordion_title">Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.</h3>
-			<p class="accordion_content">Пробовал верстать несколько проектов. Результаты прилагаю:<br><br>
-			<a href="https://github.com/artand/WPBlog" target="_blank">WPBlog</a> - верстка со страницы в интернете,<br>
-			<a href="https://github.com/artand/EasyLanguages" target="_blank">EasyLanguage</a> - верстка с PSD шаблона,<br>
-			<a href="https://github.com/artand/WeitingRoom" target="_blank">WaitingRoom</a> - верстка с PSD шаблона,<br>
-			<a href="https://github.com/artand/InstMed" target="_blank">InstMed</a> - верстка с PSD шаблона.<br>		
-			</p>
+			<div class="accordion_content">
+				<p>Пробовал верстать несколько проектов. Результаты прилагаю:</p>
+				<ul>
+					<li><a href="https://github.com/artand/WPBlog" target="_blank">WPBlog</a> - верстка со страницы в интернете,</li>
+					<li><a href="https://github.com/artand/EasyLanguages" target="_blank">EasyLanguage</a> - верстка с PSD шаблона,</li>
+					<li><a href="https://github.com/artand/WeitingRoom" target="_blank">WaitingRoom</a> - верстка с PSD шаблона,</li>
+					<li><a href="https://github.com/artand/InstMed" target="_blank">InstMed</a> - верстка с PSD шаблона,</li>
+					<li><a href="https://github.com/artand/Rezume_Yandex" target="_blank">Rezume_Yandex</a> - то, что перед глазами.</li>
+				</ul>
+			</div>			
 			<h3 class="accordion_title">Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?</h3>
 			<p class="accordion_content">HTML, CSS, Firebag, jQuery (немного)</p>
 			<h3 class="accordion_title">С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</h3>

@@ -73,8 +73,7 @@ body {
 				}
 			.b-header_title a:hover {
 				text-shadow:  3px 3px 3px #111;
-				}
-					
+				}					
 		.b-menu, .b-footer{
 			float:left;
 			width: 960px;
@@ -216,6 +215,8 @@ body {
 					text-decoration: none;
 					color:#C04000;
 					}
+				.accordion_content ul {
+					margin: 5px 25px 0;}
 				
 /*Аккордеон окончание*/	
 	
@@ -227,10 +228,7 @@ body {
 				font-size: 20px;
 				text-decoration: none;
 				}
-			.b-main_close a.hover {
-				text-shadow:  3px 3px 3px #123456;
-				}
-								
+											
   /* Футер*/
 		.b-footer{
 			margin:30px -30px; 
